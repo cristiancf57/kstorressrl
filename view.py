@@ -1,4 +1,5 @@
 import consultas
+import insert
 
 print('\nPROFESIONES')
 resultado = consultas.profesiones()

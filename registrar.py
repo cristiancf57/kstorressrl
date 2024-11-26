@@ -11,3 +11,5 @@ def nuevo_save(nuevo):
     cursor.execute('INSERT INTO producto (descripcion,cantidad,precio) VALUES (?,?,?)',nuevo)
     conexion.commit()
     conexion.close()
+
+
